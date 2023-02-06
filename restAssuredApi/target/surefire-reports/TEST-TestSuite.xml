@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.722" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.421" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\RituJain\AppData\Local\Temp\surefire7085854624690517526\surefirebooter4350056097081560037.jar C:\Users\RituJain\AppData\Local\Temp\surefire7085854624690517526 2023-02-06T12-07-40_741-jvmRun1 surefire10272250108196814255tmp surefire_03415182364127965811tmp"/>
+    <property name="sun.java.command" value="C:\Users\RituJain\AppData\Local\Temp\surefire551233771278814712\surefirebooter2396195943301165895.jar C:\Users\RituJain\AppData\Local\Temp\surefire551233771278814712 2023-02-06T12-17-08_270-jvmRun1 surefire4049007228216061202tmp surefire_013463158630237953421tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Ritu\project1\restAssuredApi\target\test-classes;C:\Ritu\project1\restAssuredApi\target\classes;C:\Users\RituJain\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\RituJain\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\RituJain\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\RituJain\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\RituJain\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\RituJain\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\RituJain\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\RituJain\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\RituJain\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\RituJain\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\RituJain\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\RituJain\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\RituJain\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\RituJain\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\RituJain\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\RituJain\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\RituJain\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\RituJain\.m2\repository\org\codehaus\groovy\groovy-all\2.4.5\groovy-all-2.4.5.jar;C:\Users\RituJain\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\RituJain\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\RituJain\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\RituJain\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\RituJain\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\RituJain\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\RituJain\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\RituJain\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RituJain\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\RituJain\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\RituJain\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\RituJain\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\RituJain\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\RituJain\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\RituJain\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\RituJain\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\RituJain\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\RituJain\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\RituJain\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\RituJain\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\RituJain\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\RituJain\.m2\repository\org\hamcrest\hamcrest-junit\2.0.0.0\hamcrest-junit-2.0.0.0.jar;C:\Users\RituJain\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\RituJain\AppData\Local\Temp\surefire7085854624690517526\surefirebooter4350056097081560037.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RituJain\AppData\Local\Temp\surefire551233771278814712\surefirebooter2396195943301165895.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="get_request" classname="testfolder.RestDemo" time="2.444">
+  <testcase name="get_request" classname="testfolder.RestDemo" time="2.266">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 HTTP/1.1 200 OK
 access-control-allow-origin: *
@@ -70,8 +70,8 @@ x-xss-protection: 1; mode=block
 x-content-type-options: nosniff
 referrer-policy: strict-origin-when-cross-origin
 content-type: application/json; charset=utf-8
-date: Mon, 06 Feb 2023 06:37:44 GMT
-x-envoy-upstream-service-time: 3
+date: Mon, 06 Feb 2023 06:47:12 GMT
+x-envoy-upstream-service-time: 2
 strict-transport-security: max-age=2592000; includeSubDomains
 vary: Accept-Encoding
 content-encoding: gzip
