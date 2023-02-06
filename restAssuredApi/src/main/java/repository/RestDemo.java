@@ -15,6 +15,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
@@ -22,22 +23,32 @@ import io.restassured.RestAssured;
 import io.restassured.response.*;
 
 public class RestDemo {
+	@BeforeTest
+	public void setup() {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+		   LocalDateTime now = LocalDateTime.now();  
+		   System.out.println(dtf.format(now)); 
+	}
 	
 	@Test
 	public void get_request() throws InterruptedException {
 		
-		 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
-		   LocalDateTime now = LocalDateTime.now();  
-		   System.out.println(dtf.format(now));  
+		DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+		   LocalDateTime now1 = LocalDateTime.now();  
+		   System.out.println(dtf1.format(now1)); 
 		   
 		   Thread.sleep(3000);
 		   
-		given()
-			.when()
-				.get("https://ipinfo.io/216.244.66.202?token=deac8b2df2e12a")
-			.then()
-				.statusCode(200)
-				.log().all();
+//		given()
+//			.when()
+//				.get("https://ipinfo.io/216.244.66.202?token=deac8b2df2e12a")
+//			.then()
+//				.statusCode(200)
+//				.log().all();
+		
+		
+		
+		 
 	}
 }
 
