@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4406" started-at="2022-09-04T09:52:48Z" finished-at="2022-09-04T09:52:52Z">
+  <suite started-at="2023-02-06T06:46:28Z" name="Default suite" finished-at="2023-02-06T06:46:29Z" duration-ms="1535">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4406" started-at="2022-09-04T09:52:48Z" finished-at="2022-09-04T09:52:52Z">
-      <class name="RestDemo">
-        <test-method status="PASS" signature="get_request()[pri:0, instance:RestDemo@38d8f54a]" name="get_request" duration-ms="4346" started-at="2022-09-04T09:52:48Z" finished-at="2022-09-04T09:52:52Z">
+    <test started-at="2023-02-06T06:46:28Z" name="Default test" finished-at="2023-02-06T06:46:29Z" duration-ms="1535">
+      <class name="repository.RestDemo">
+        <test-method signature="get_request()[pri:0, instance:repository.RestDemo@600b9d27]" started-at="2023-02-06T06:46:28Z" name="get_request" finished-at="2023-02-06T06:46:29Z" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_request -->
-      </class> <!-- RestDemo -->
+      </class> <!-- repository.RestDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

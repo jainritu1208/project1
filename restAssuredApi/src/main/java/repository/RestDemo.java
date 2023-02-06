@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 
 import org.testng.annotations.BeforeClass;
@@ -23,6 +25,10 @@ public class RestDemo {
 	
 	@Test
 	public void get_request() {
+		
+		 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+		   LocalDateTime now = LocalDateTime.now();  
+		   System.out.println(dtf.format(now));  
 		given()
 			.when()
 				.get("https://ipinfo.io/216.244.66.202?token=deac8b2df2e12a")
