@@ -21,7 +21,7 @@ public class SingletonClassChromeNew {
 		private SingletonClassChromeNew() {
 
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+
-					"\\Driver\\chromedriver.exe");
+					"\\src\\main\\java\\utility\\Driver\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("start-maximized");
 
